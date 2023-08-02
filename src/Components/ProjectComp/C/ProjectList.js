@@ -1,0 +1,25 @@
+import Pipeline from './media/Pipline.png'
+import ufs from './media/UFS.png'
+
+
+export const ProjectList = [
+    {
+        projectName: "Design Patterns",
+        Technologies: "C",
+        explaination: "The Design Patterns project focuses on implementing various design patterns in C. The project is divided into four mini-projects, each demonstrating different design patterns.Part A: Synchronized Server with Active-Object FunctioIn this part, a synchronized server is implemented, which supports clients pushing data through an active-object function. The active-object function receives a string and returns the string incremented by one character (e.g., 'abc' turns to 'bcd' ,'123' turns to '456', etc.). The server runs an infinite loop and can handle multiple clients simultaneously. Each client's request is handled by a separate thread, and the data is pushed into a pipeline. Clients can send any string data, and if the client sends 'EXIT', the program stops. The server supports synchronization using mutex to ensure thread safety.Part D: Live Chat App ServeIn this part, a server for a basic live chat application is implemented. The server runs an infinite loop and listens to a dynamic number of clients (initially starting with 5). The server saves its self-defined file descriptor used for listening to new clients. When a client connects, the server saves the client's file descriptor and the function the client is supposed to perform (listen or write to the chat). This information is stored in a poll-fds array. When a client chooses to perform an action, the server identifies the client and the selected action based on the file descriptor and the stored function. If a client sends a message, the server publishes it to the rest of the clients. If a client sends the message 'EXIT', the client disconnects from the chat.The project showcases the application of design patterns such as the Guard design pattern and Singleton design pattern (Parts B and C, respectively). These patterns are widely documented and can be found online for further information.The C programming language is chosen for this project due to its efficiency and low-level capabilities, making it suitable for systems programming and implementing design patterns.The Design Patterns project provides practical examples of design pattern implementation and demonstrates their usefulness in solving real-world programming challenges.",   
+        media: [Pipeline],
+        githubLink: "https://github.com/RoiMeshulam/Ex6-Design-Patterns" 
+    },
+    {
+        projectName: "Unix File System",
+        Technologies: "C",
+        explaination:"The Unix File System project is designed to provide a better understanding of how the Unix file system is built. The project is divided into two parts, each focusing on different aspects of the file system implementation.Part A: Custom UFS (Unix File System) ImplementatioIn this part, a program is developed to create a custom Unix File System. The user has the ability to determine the size of the disk for the file system. The implementation includes functionality to allocate disk space. The 'mymount' command allocates the specified space and creates a file that serves as the disk for the file system, establishing a root directory for further operationsControl over directories under the root and addressing them is implemented through functions such as 'myopen', 'myopenDIR', 'myclose', and 'mycloseDIR'. These functions allow users to manage directories and control file operations within themFile operations, such as opening files under the root directory, are handled through functions like 'mywrite', 'myread', and 'mylseek'. It's important to note that these functions only work on files that have been opened using 'myopenfile', as this represents the storage of the custom file systemThe project also provides a 'myreaddir' function to obtain a view of the storage, allowing users to navigate and observe the file system structurePart B: Custom 'myFILE' ImplementatioPart B builds upon the implementation of Part A by creating a custom file structure similar to the standard Unix 'FILE'. This custom implementation, referred to as 'myFILE', utilizes the concepts and functions developed in Part ABy following the progression of the project, it becomes apparent that Part A serves as a template for implementing the custom file structure. The 'myFILE' structure incorporates the functionalities and operations demonstrated in Part AThe project is developed in the C programming language due to its efficiency, low-level capabilities, and close association with Unix systems programmingThe Unix File System project provides practical insights into the underlying workings of a file system, allowing users to gain a deeper understanding of file system management and operations.",
+        media:[ufs],
+        githubLink: "https://github.com/RoiMeshulam/Ex7-UFS"
+    }
+
+
+
+
+
+]
