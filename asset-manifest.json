@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4e4915a4.css",
+    "main.js": "/portfolio/static/js/main.d5651ece.js",
+    "static/js/592.6647c214.chunk.js": "/portfolio/static/js/592.6647c214.chunk.js",
+    "static/media/BigData.mp4": "/portfolio/static/media/BigData.5db7c69a9fcd94641976.mp4",
+    "static/media/Pokemon.jpg": "/portfolio/static/media/Pokemon.b9e978d1832739a71c23.jpg",
+    "static/media/NewCase.PNG": "/portfolio/static/media/NewCase.80298d484a9aebd40873.PNG",
+    "static/media/AdminDash.PNG": "/portfolio/static/media/AdminDash.9eb06724eb14f88f053c.PNG",
+    "static/media/BigDataHomePage.JPG": "/portfolio/static/media/BigDataHomePage.f773534cc3224d3f3726.JPG",
+    "static/media/BackgroundShell.jpg": "/portfolio/static/media/BackgroundShell.ed53e881aef0a694012f.jpg",
+    "static/media/Nasa.JPG": "/portfolio/static/media/Nasa.bae09d467316b342fe1f.JPG",
+    "static/media/RecentEvents.JPG": "/portfolio/static/media/RecentEvents.bb9e87816e32982c5c66.JPG",
+    "static/media/SunA.JPG": "/portfolio/static/media/SunA.b51d75e71b260cca365b.JPG",
+    "static/media/MaxPriority2.PNG": "/portfolio/static/media/MaxPriority2.e91b5db59ed77327c003.PNG",
+    "static/media/MaxPrioirty1.PNG": "/portfolio/static/media/MaxPrioirty1.e2a7dbb7d94efc4aa03f.PNG",
+    "static/media/MaximumPrioirtyMatchingExmple1.PNG": "/portfolio/static/media/MaximumPrioirtyMatchingExmple1.7bba2cba19495d84caa3.PNG",
+    "static/media/chat.jpg": "/portfolio/static/media/chat.7daa736b84e7dd9bcd2e.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.4e4915a4.css.map": "/portfolio/static/css/main.4e4915a4.css.map",
+    "main.d5651ece.js.map": "/portfolio/static/js/main.d5651ece.js.map",
+    "592.6647c214.chunk.js.map": "/portfolio/static/js/592.6647c214.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e4915a4.css",
+    "static/js/main.d5651ece.js"
+  ]
+}
