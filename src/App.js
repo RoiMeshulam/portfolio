@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React, { useRef } from 'react';
 import './App.css';
+import HomeScreen from './components/home/HomeScreen';
+import Projects from './components/projects/Projects'
+import AboutMe from './components/about/AboutMe';
+
+
 
 function App() {
+  const projectsRef = useRef(null);
+  const aboutMeRef = useRef(null);
+
+  const scrollToProjects = () => {
+    projectsRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToAboutMe = () => {
+    aboutMeRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HomeScreen aboutClick={scrollToAboutMe} projectClick={scrollToProjects} />
+      <AboutMe ref={aboutMeRef}/>
+      <Projects ref={projectsRef}/>
+    </>
   );
 }
 

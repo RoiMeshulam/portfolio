@@ -1,0 +1,1 @@
+export const headerFont = "'Anton', sans-serif";
