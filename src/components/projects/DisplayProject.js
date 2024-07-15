@@ -21,7 +21,7 @@ const DisplayProject = ({ project, index }) => {
 
     if (isSmallScreen) {
         return (
-            <Box display="flex" flexDirection="column" width="80%" marginTop="2%">
+            <Box display="flex" flexDirection="column" width="80%" marginTop="2%" textAlign={'center'}>
                 <ProjectDescription projectName={project.projectName} technologies={project.technologies} description={project.explaination} githubLink={project.githubLink} />
                 <Gallery media={project.media} />
             </Box>

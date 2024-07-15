@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material'
 const HeaderSection = ({text}) => {
   return (
     <Box height={'15vh'} display={'flex'} justifyContent={'center'} alignItems={'end'}>
-      <Typography variant='h4'>{text}</Typography>
+      <Typography variant='h3'>{text}</Typography>
     </Box>
   )
 }

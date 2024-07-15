@@ -11,10 +11,31 @@ import Max2 from './projectAssets/MaxPrioirty1.PNG'
 import Max3 from './projectAssets/MaxPriority2.PNG'
 import chat from './projectAssets/chat.jpg'
 import pokemonPic from './projectAssets/Pokemon.jpg'
-
+import FlyGiftVid from './projectAssets/FlyGiftVid.mp4'
+import FlyGift1 from './projectAssets/FlyGift1.png'
+import FlyGift2 from './projectAssets/FlyGift2.png'
+import FlyGift3 from './projectAssets/FlyGiftHome.png'
+import AddBet from  './projectAssets/AddBet.png'
+import AddPlayer from  './projectAssets/AddPlayer.png'
+import LastBets from  './projectAssets/LastBets.png'
+import LastBetsS from  './projectAssets/LastBetsS.png'
+import LoginPage from  './projectAssets/LoginPage.png'
+import NavigationPage from  './projectAssets/NavigationPage.png'
+import NavigationPageS from  './projectAssets/NavigationPageS.png'
+import PlayerStatistics from  './projectAssets/PlayerStatistics.png'
+import StatisticsPage from  './projectAssets/StatisticsPage.png'
+import StatisticsS from  './projectAssets/StatisticsS.png'
+import WinnerMonitorVid from './projectAssets/WinnerMonitor.mp4'
 
 
 export const ProjectList = [
+    {
+        projectName: "Winner Monitor",
+        technologies: "React, Material-UI (MUI), Express, PostgreSQL, Jest, Axios (HTTP Requests)",
+        explaination: "This project is a React app that integrates a RESTful API, databases, and various libraries to provide users with insights into their betting activities. The app calculates and displays net earnings or losses from betting activities to encourage informed decision-making and promote responsible gambling. The backend uses an Express server connected to a PostgreSQL database, with Jest for testing. Data retrieval and manipulation are done using Axios.",
+        media: [WinnerMonitorVid,NavigationPage,AddBet,AddPlayer,LastBets,LoginPage,PlayerStatistics,StatisticsPage],  
+        githubLink: "https://github.com/RoiMeshulam/WinnerMonitor"
+    },
     {
         projectName: "Nasa Simulator",
         technologies: "React, Material-UI (MUI), Azure Event Hub (kafka),  Express, ElasticSearch(Bonsai.io), Redis(upstash.com), Axios(HTML Request), Cheerio (Web Scrapping)",
@@ -26,7 +47,7 @@ export const ProjectList = [
         projectName: "FlyGift",
         technologies: "React, Firebase, Material-UI (MUI), Tequila API (KIWI API), EmailJS",
         explaination: "FlyGift is a creative solution aimed at improving employee satisfaction with holiday gifts. Throughout this project, I dedicated significant effort to ensuring the app is user-friendly and functions seamlessly across various devices (responsive design). Additionally, I successfully integrated APIs such as Kiwi and email APIs to enhance the app's functionality and user experience.",
-        media: [NewCase,AdminDash],
+        media: [FlyGiftVid,FlyGift3,FlyGift1,FlyGift2],
         githubLink: "https://github.com/RoniPick/Fly-Gift-Public"
     },
     {

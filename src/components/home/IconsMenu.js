@@ -53,9 +53,6 @@ const IconsMenu = () => {
       <IconButton style={iconButtonStyle} onClick={() => handleClick('github')}>
         <GitHubIcon fontSize="large" />
       </IconButton>
-      <IconButton style={iconButtonStyle} onClick={() => handleClick('phone')}>
-        <PhoneIcon fontSize="large" />
-      </IconButton>
     </Box>
   );
 };

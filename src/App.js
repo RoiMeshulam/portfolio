@@ -3,7 +3,9 @@ import './App.css';
 import HomeScreen from './components/home/HomeScreen';
 import Projects from './components/projects/Projects'
 import AboutMe from './components/about/AboutMe';
-
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './theme';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,11 +23,12 @@ function App() {
 
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <HomeScreen aboutClick={scrollToAboutMe} projectClick={scrollToProjects} />
       <AboutMe ref={aboutMeRef}/>
       <Projects ref={projectsRef}/>
-    </>
+      <Footer/>
+    </ThemeProvider>
   );
 }
 
