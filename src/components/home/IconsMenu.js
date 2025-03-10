@@ -24,10 +24,10 @@ const IconsMenu = () => {
       case 'email':
         window.location.href = "mailto:rohimesh21@gmail.com";
         break;
-      // case 'resume':
-      //   // Assuming your resume PDF file is hosted at this URL
-      //   window.location.href = "https://example.com/your-resume.pdf";
-      //   break;
+      case 'resume':
+        // Assuming your resume PDF file is hosted at this URL
+        window.location.href = "https://example.com/your-resume.pdf";
+        break;
       case 'github':
         window.location.href = "https://github.com/RoiMeshulam";
         break;
@@ -47,9 +47,9 @@ const IconsMenu = () => {
       <IconButton style={iconButtonStyle} onClick={() => handleClick('email')}>
         <EmailIcon fontSize="large" />
       </IconButton>
-      <IconButton style={iconButtonStyle} onClick={() => handleClick('resume')}>
+      {/* <IconButton style={iconButtonStyle} onClick={() => handleClick('resume')}>
         <DescriptionIcon fontSize="large" />
-      </IconButton>
+      </IconButton> */}
       <IconButton style={iconButtonStyle} onClick={() => handleClick('github')}>
         <GitHubIcon fontSize="large" />
       </IconButton>
