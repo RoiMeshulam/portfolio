@@ -4,7 +4,7 @@ import { Typography, Box } from '@mui/material'
 
 const AboutMe = forwardRef((props, ref) => {
 
-    const text = "I am a dedicated and self-motivated developer with a Bachelor's degree in Computer Science. With a proven ability to work under pressure and collaborate effectively, I excel at tackling complex code and developing sophisticated algorithms. I am passionate about continuous learning and improvement, always seeking opportunities to enhance my skills. \nI have two years of professional experience as a full-stack developer at Melamedia, where I successfully established websites and web applications for various businesses. Now, as an independent developer, I continue to create high-quality apps and websites for both businesses and private clients. I am eager to join a dynamic environment where I can further develop my expertise and drive innovative solutions."
+    const text = "I am a self-taught and highly motivated full-stack developer specializing in both web and mobile applications. I have experience building end-to-end solutions, from designing intuitive user interfaces to implementing scalable backends. Previously, I worked as a full-stack developer at Melamedia, creating web applications for businesses. Now, as an independent developer, I continue to develop web and mobile applications for Android and iOS, integrating advanced technologies like Firebase, cloud services, and API automation. Always eager to learn and take on new challenges, I thrive in dynamic environments where I can drive impactful solutions.";
 
     return (
         <Box display={'flex'} justifyContent={'center'} ref={ref} >

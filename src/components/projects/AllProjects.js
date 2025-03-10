@@ -26,9 +26,19 @@ import PlayerStatistics from  './projectAssets/PlayerStatistics.png'
 import StatisticsPage from  './projectAssets/StatisticsPage.png'
 import StatisticsS from  './projectAssets/StatisticsS.png'
 import WinnerMonitorVid from './projectAssets/WinnerMonitor.mp4'
+import DeliveryVid from './projectAssets/DeliveriesVid.mp4'
+import Delivery1 from './projectAssets/DeliveriesSystem1.jpg'
 
 
 export const ProjectList = [
+    {
+        projectName: "Deliveries System",
+        technologies: "React Native, Firebase (Firestore, Functions, Authentication, Messaging), Node.js, Express, Azure Computer Vision, WhatsApp API",
+        explaination: "An automated delivery tracking system integrating WhatsApp Webhooks, AI-powered image analysis (Azure Computer Vision), and real-time updates using Firebase Cloud Messaging. The system receives WhatsApp orders, extracts delivery details using AI, and updates all connected users in real-time. Includes a mobile app for Android & iOS (React Native CLI) and a secure REST API (Node.js & Express).",
+        media: [Delivery1, DeliveryVid],
+        githubLink: "https://github.com/RoiMeshulam/DeliveriesProject"
+    },
+
     {
         projectName: "Winner Monitor",
         technologies: "React, Material-UI (MUI), Express, PostgreSQL, Jest, Axios (HTTP Requests)",
