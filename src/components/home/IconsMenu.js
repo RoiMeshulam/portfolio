@@ -24,10 +24,10 @@ const IconsMenu = () => {
       case 'email':
         window.location.href = "mailto:rohimesh21@gmail.com";
         break;
-      case 'resume':
-        // Assuming your resume PDF file is hosted at this URL
-        window.location.href = "https://example.com/your-resume.pdf";
-        break;
+      // case 'resume':
+      //   // Assuming your resume PDF file is hosted at this URL
+      //   window.location.href = "https://example.com/your-resume.pdf";
+      //   break;
       case 'github':
         window.location.href = "https://github.com/RoiMeshulam";
         break;
