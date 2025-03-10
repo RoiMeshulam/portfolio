@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4e4915a4.css",
-    "main.js": "/portfolio/static/js/main.cd79cadf.js",
+    "main.js": "/portfolio/static/js/main.fed22227.js",
     "static/js/592.6647c214.chunk.js": "/portfolio/static/js/592.6647c214.chunk.js",
+    "static/media/DeliveriesVid.mp4": "/portfolio/static/media/DeliveriesVid.0c8b1b281d31071b50bc.mp4",
     "static/media/BigData.mp4": "/portfolio/static/media/BigData.5db7c69a9fcd94641976.mp4",
     "static/media/WinnerMonitor.mp4": "/portfolio/static/media/WinnerMonitor.e266d34d2c4c5bf31ed6.mp4",
     "static/media/FlyGift1.png": "/portfolio/static/media/FlyGift1.0d67e77adf73ee6aa39e.png",
@@ -23,6 +24,7 @@
     "static/media/LastBetsS.png": "/portfolio/static/media/LastBetsS.19fea967246ac53d194e.png",
     "static/media/AdminDash.PNG": "/portfolio/static/media/AdminDash.9eb06724eb14f88f053c.PNG",
     "static/media/BigDataHomePage.JPG": "/portfolio/static/media/BigDataHomePage.f773534cc3224d3f3726.JPG",
+    "static/media/DeliveriesSystem1.jpg": "/portfolio/static/media/DeliveriesSystem1.327faee579fd0bb60650.jpg",
     "static/media/BackgroundShell.jpg": "/portfolio/static/media/BackgroundShell.ed53e881aef0a694012f.jpg",
     "static/media/Nasa.JPG": "/portfolio/static/media/Nasa.bae09d467316b342fe1f.JPG",
     "static/media/RecentEvents.JPG": "/portfolio/static/media/RecentEvents.bb9e87816e32982c5c66.JPG",
@@ -53,11 +55,11 @@
     "static/media/CSS.svg": "/portfolio/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
     "static/media/HTML.svg": "/portfolio/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
     "main.4e4915a4.css.map": "/portfolio/static/css/main.4e4915a4.css.map",
-    "main.cd79cadf.js.map": "/portfolio/static/js/main.cd79cadf.js.map",
+    "main.fed22227.js.map": "/portfolio/static/js/main.fed22227.js.map",
     "592.6647c214.chunk.js.map": "/portfolio/static/js/592.6647c214.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e4915a4.css",
-    "static/js/main.cd79cadf.js"
+    "static/js/main.fed22227.js"
   ]
 }
