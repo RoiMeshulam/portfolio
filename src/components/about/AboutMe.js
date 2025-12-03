@@ -4,7 +4,7 @@ import { Typography, Box } from '@mui/material'
 
 const AboutMe = forwardRef((props, ref) => {
 
-    const text = "I am a self-taught and highly motivated full-stack developer specializing in both web and mobile applications. I have experience building end-to-end solutions, from designing intuitive user interfaces to implementing scalable backends. Previously, I worked as a full-stack developer at Melamedia, creating web applications for businesses. Now, as an independent developer, I continue to develop web and mobile applications for Android and iOS, integrating advanced technologies like Firebase, cloud services, and API automation. Always eager to learn and take on new challenges, I thrive in dynamic environments where I can drive impactful solutions.";
+    const text = "Hi, I'm Roi Meshulam — a Full-Stack Developer specializing in modern JavaScript ecosystems, with hands-on experience building complete, production-ready systems from the ground up. ֿ\n I develop scalable backends using Node.js and modern cloud infrastructure, and craft clean, intuitive front-end experiences with React and React Native. \n Over the past few years, I've delivered full projects for real clients — including a WhatsApp-based delivery automation system and a smart recycling platform (KASA). \n I lead projects end-to-end: architecture, development, real-time communication, DevOps pipelines, cloud deployment, and product UX. \n I’m passionate about system design, real-time data, mobile development, cloud engineering, and writing clean, maintainable code. \n I’m constantly learning, improving, and building products that create real value.";
 
     return (
         <Box display={'flex'} justifyContent={'center'} ref={ref} >
