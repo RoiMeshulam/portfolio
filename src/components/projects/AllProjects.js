@@ -33,6 +33,7 @@ import KasaCreateAccount from './projectAssets/KasaCreateAccount.png'
 import KasaProfile from './projectAssets/KasaProfile.png'
 import sessionDetails from './projectAssets/sessionDetails.png'
 import KasaLogin from './projectAssets/KasaLogin.png'
+import kasa_android_devices_2rows from './projectAssets/kasa_android_devices_2rows.png'
 // import kasa media
 
 
@@ -41,7 +42,7 @@ export const ProjectList = [
         projectName: "KASA – Smart Recycling System",
         technologies: "React Native (Expo), Firebase (Auth, Firestore, RTDB), Node.js (Express), Socket.IO, Google Cloud Run, Docker, QR & Barcode Scanning",
         explaination: "A real-time smart recycling platform connecting users to physical machines. Users scan a machine via QR, scan bottles using barcodes, earn credit in their wallet, and view live session updates. Built with WebSockets for instant machine ↔ user communication, and deployed on Cloud Run with Docker.",
-        media: [KasaLogin, KasaCreateAccount, KasaProfile, EditProfile, sessionDetails],
+        media: [kasa_android_devices_2rows],
         githubLink: "https://github.com/RoiMeshulam/Kasa-prototype"
     },
     {
