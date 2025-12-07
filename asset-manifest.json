@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4e4915a4.css",
-    "main.js": "/portfolio/static/js/main.acb32877.js",
+    "main.js": "/portfolio/static/js/main.53241179.js",
     "static/js/592.6647c214.chunk.js": "/portfolio/static/js/592.6647c214.chunk.js",
     "static/media/DeliveriesVid.mp4": "/portfolio/static/media/DeliveriesVid.0c8b1b281d31071b50bc.mp4",
     "static/media/BigData.mp4": "/portfolio/static/media/BigData.5db7c69a9fcd94641976.mp4",
@@ -33,6 +33,7 @@
     "static/media/KasaCreateAccount.png": "/portfolio/static/media/KasaCreateAccount.d5f4660a558874303d37.png",
     "static/media/KasaLogin.png": "/portfolio/static/media/KasaLogin.bf0265272b878a0d70df.png",
     "static/media/KasaProfile.png": "/portfolio/static/media/KasaProfile.573e5a829de37318cc89.png",
+    "static/media/KasaCol.png": "/portfolio/static/media/KasaCol.dc1c17e6086ebe45791b.png",
     "static/media/sessionDetails.png": "/portfolio/static/media/sessionDetails.b80eb4cd12967d604da5.png",
     "static/media/EditProfile.png": "/portfolio/static/media/EditProfile.f49a03b0e0383fea5d4a.png",
     "static/media/MaxPriority2.PNG": "/portfolio/static/media/MaxPriority2.e91b5db59ed77327c003.PNG",
@@ -61,11 +62,11 @@
     "static/media/CSS.svg": "/portfolio/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
     "static/media/HTML.svg": "/portfolio/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
     "main.4e4915a4.css.map": "/portfolio/static/css/main.4e4915a4.css.map",
-    "main.acb32877.js.map": "/portfolio/static/js/main.acb32877.js.map",
+    "main.53241179.js.map": "/portfolio/static/js/main.53241179.js.map",
     "592.6647c214.chunk.js.map": "/portfolio/static/js/592.6647c214.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e4915a4.css",
-    "static/js/main.acb32877.js"
+    "static/js/main.53241179.js"
   ]
 }
